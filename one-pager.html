@@ -45,13 +45,14 @@
  .note{font-size:10.5px;color:var(--sec);margin:6px 0 0}
  footer{margin-top:20px;border-top:1px solid var(--line);padding-top:10px;display:flex;justify-content:space-between;gap:14px;font-size:10.5px;color:var(--sec)}
  footer b{color:var(--ink)}
- @media print{ body{background:#fff} .page{max-width:none;padding:14mm 15mm} @page{size:A4;margin:0} }
+ @media print{ body{background:#fff} .page{max-width:none;padding:14mm 15mm} @page{size:A4;margin:0}
+   .review-banner,.review-sidebar,.review-floating-pill,.review-modal-overlay{display:none!important} }
 </style></head><body>
 <div class="page">
 
  <header>
-   <div class="brand">
-     <img class="mark" src="assets/prota-logo.png" alt="">
+   <div class="brand" data-comment-target>
+     <img class="mark" src="assets/prota-favicon-large.png" alt="Prota Studios">
      <div><b>Prota Studios</b><span>Digital communications</span></div>
    </div>
    <div class="doc">
@@ -64,32 +65,32 @@
 
  <h2>Scope &amp; monthly retainer</h2>
  <table class="scope">
-   <tr>
+   <tr data-comment-target>
      <td class="s">Ads<small>Google · Bing · Meta</small></td>
      <td class="d">Full-funnel paid search and social: campaign management, creative, testing, and reporting across the debt-defense verticals. Manages the media budget below.</td>
      <td class="f">$7,500</td>
    </tr>
-   <tr>
+   <tr data-comment-target>
      <td class="s">Website redesign &amp; development<small>Custom</small></td>
      <td class="d">Custom rebuild of credolegal.com to match the new microsite, built to the trust bar legal and financial topics demand, then ongoing improvement and maintenance.</td>
      <td class="f">$2,500</td>
    </tr>
-   <tr>
+   <tr data-comment-target>
      <td class="s">Technical SEO &amp; GEO</td>
      <td class="d">Technical SEO (Core Web Vitals, schema, indexation, site health) and generative-engine optimization so the practice surfaces in AI answers, not just classic search.</td>
      <td class="f">$1,000</td>
    </tr>
-   <tr>
+   <tr data-comment-target>
      <td class="s">Content pipeline<small>Blogs &amp; resources</small></td>
      <td class="d">Ongoing blog articles and resources across the seven debt clusters, published into the site as a compounding, search-ready library.</td>
      <td class="f">$2,500</td>
    </tr>
-   <tr>
+   <tr data-comment-target>
      <td class="s">Organic social<small>Facebook · LinkedIn</small></td>
      <td class="d">Always-on organic program with a managed content calendar, drawn from the content library and tuned per platform.</td>
      <td class="f">$1,500</td>
    </tr>
-   <tr class="total">
+   <tr class="total" data-comment-target>
      <td class="s">Total retainer</td>
      <td class="d">All five workstreams, one accountable team, billed monthly.</td>
      <td class="f">$15,000</td>
@@ -100,36 +101,39 @@
    <div>
      <h2>Monthly media budget</h2>
      <table class="media">
-       <tr><td class="p">Google</td><td class="v">$40,000</td></tr>
-       <tr><td class="p">Meta</td><td class="v">$22,000</td></tr>
-       <tr><td class="p">Bing</td><td class="v">$8,000</td></tr>
-       <tr><td class="p">TikTok<small></small></td><td class="v">$5,000</td></tr>
-       <tr class="sub"><td>Ad spend subtotal</td><td class="v">$75,000</td></tr>
-       <tr><td class="p">Social post boosting</td><td class="v">$2,000</td></tr>
-       <tr class="tot"><td>Total media</td><td class="v">$77,000</td></tr>
+       <tr data-comment-target><td class="p">Google</td><td class="v">$40,000</td></tr>
+       <tr data-comment-target><td class="p">Meta</td><td class="v">$22,000</td></tr>
+       <tr data-comment-target><td class="p">Bing</td><td class="v">$8,000</td></tr>
+       <tr data-comment-target><td class="p">TikTok</td><td class="v">$5,000</td></tr>
+       <tr class="sub" data-comment-target><td>Ad spend subtotal</td><td class="v">$75,000</td></tr>
+       <tr data-comment-target><td class="p">Social post boosting</td><td class="v">$2,000</td></tr>
+       <tr class="tot" data-comment-target><td>Total media</td><td class="v">$77,000</td></tr>
      </table>
      <p class="note">Media is the client's spend, billed at cost, separate from the retainer. TikTok runs as an added test channel within the ads workstream.</p>
    </div>
    <div>
      <h2>Team</h2>
      <div class="team">
-       <div class="p"><b>Vernon Steward</b><span>Project &amp; Account Management</span></div>
-       <div class="p"><b>Milos Milosavljevic</b><span>Marketing Strategy, Content &amp; Web Development</span></div>
-       <div class="p"><b>Milan Gajic</b><span>Paid Media, Analytics &amp; Reporting</span></div>
+       <div class="p" data-comment-target><b>Vernon Steward</b><span>Project &amp; Account Management</span></div>
+       <div class="p" data-comment-target><b>Milos Milosavljevic</b><span>Marketing Strategy, Content &amp; Web Development</span></div>
+       <div class="p" data-comment-target><b>Milan Gajic</b><span>Paid Media, Analytics &amp; Reporting</span></div>
      </div>
      <h2 style="margin-top:16px">At a glance</h2>
      <table class="media">
-       <tr><td class="p">Retainer</td><td class="v">$15,000 / mo</td></tr>
-       <tr><td class="p">Managed media</td><td class="v">$77,000 / mo</td></tr>
-       <tr class="tot"><td>Total monthly</td><td class="v">$92,000</td></tr>
+       <tr data-comment-target><td class="p">Retainer</td><td class="v">$15,000 / mo</td></tr>
+       <tr data-comment-target><td class="p">Managed media</td><td class="v">$77,000 / mo</td></tr>
+       <tr class="tot" data-comment-target><td>Total monthly</td><td class="v">$92,000</td></tr>
      </table>
    </div>
  </div>
 
- <footer>
+ <footer data-comment-target>
    <span>Prota Studios · prepared for Crēdo Legal</span>
    <span>Retainer <b>$15,000/mo</b> + managed media <b>$77,000/mo</b>. Allocations are a proposed split.</span>
  </footer>
 
 </div>
+<!-- review widget: floating "Comments" button, activates on ?review=1. Every component is data-comment-target -->
+<script src="review.config.js"></script>
+<script src="review-bootstrap.js"></script>
 </body></html>
