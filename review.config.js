@@ -22,7 +22,7 @@ window.CREDO_REVIEW_CONFIG = {
   REVIEW_LABELS: {
     toggleButton: "Comments",
     toggleButtonTitle: "Open comment review mode",
-    bannerTitle: "Review mode · Credo proposal (Prota Studios)",
+    bannerTitle: "Review mode · Crēdo Legal",
     localOnly: "Local-only — add Firebase config for shared comments",
     exit: "Exit review",
     sidebarTitle: "Comments",
