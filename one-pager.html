@@ -33,7 +33,7 @@
  .scope .d{color:#33353d;font-size:12.5px}
  .scope .f{text-align:right;font-weight:700;white-space:nowrap;width:88px;font-variant-numeric:tabular-nums}
  .total td{border-top:2px solid var(--ink);padding-top:9px;font-weight:700}
- .total .f{color:var(--gold2)}
+ .total .f{color:var(--ink)}
  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:20px}
  .media td{padding:5px 4px;border-top:1px solid var(--line);font-size:12.5px}
  .media tr:first-child td{border-top:0}
@@ -52,8 +52,11 @@
  .scope .grp .fsub{display:block;font-weight:400;font-size:9px;color:var(--sec);letter-spacing:.03em;margin-top:1px}
  footer{margin-top:20px;border-top:1px solid var(--line);padding-top:10px;display:flex;justify-content:space-between;gap:14px;font-size:10.5px;color:var(--sec)}
  footer b{color:var(--ink)}
- @media print{ body{background:#fff} .page{max-width:none;padding:14mm 15mm} @page{size:A4;margin:0}
-   .review-banner,.review-sidebar,.review-floating-pill,.review-modal-overlay,.dl{display:none!important} }
+ @media print{ body{background:#fff} @page{size:A4;margin:0}
+   .page{max-width:none;padding:8mm 14mm}
+   .review-banner,.review-sidebar,.review-floating-pill,.review-modal-overlay,.dl{display:none!important}
+   .lede{margin:9px 0 11px} .term{margin:0 0 11px} .cols{margin-top:13px}
+   footer{margin-top:11px;padding-top:7px} .scope td{padding:6px 4px} h2{margin-bottom:6px} }
 </style></head><body>
 <div class="page">
 
@@ -77,15 +80,6 @@
      <td class="f">$12,000</td>
    </tr>
    <tr data-comment-target>
-     <td class="s">Website redesign &amp; development<small>Custom</small></td>
-     <td class="d">Custom rebuild of credolegal.com to match the new microsite, built to the trust bar legal and financial topics demand, then ongoing improvement and maintenance.</td>
-     <td class="f grp free" rowspan="2">Free<small class="fsub">6-month intro</small></td>
-   </tr>
-   <tr data-comment-target>
-     <td class="s">Technical SEO &amp; GEO</td>
-     <td class="d">Technical SEO (Core Web Vitals, schema, indexation, site health) and generative-engine optimization so the practice surfaces in AI answers, not just classic search.</td>
-   </tr>
-   <tr data-comment-target>
      <td class="s">Content pipeline<small>Blogs &amp; resources</small></td>
      <td class="d">Ongoing blog articles and resources across the seven debt clusters, published into the site as a compounding, search-ready library.</td>
      <td class="f grp" rowspan="2">$3,000</td>
@@ -93,6 +87,15 @@
    <tr data-comment-target>
      <td class="s">Organic social<small>Facebook · LinkedIn</small></td>
      <td class="d">Always-on organic program with a managed content calendar, drawn from the content library and tuned per platform.</td>
+   </tr>
+   <tr data-comment-target>
+     <td class="s">Website redesign &amp; development<small>Custom</small></td>
+     <td class="d">Custom rebuild of credolegal.com to match the new microsite, built to the trust bar legal and financial topics demand, then ongoing improvement and maintenance.</td>
+     <td class="f grp free" rowspan="2">Free<small class="fsub">6-month intro</small></td>
+   </tr>
+   <tr data-comment-target>
+     <td class="s">Technical SEO &amp; GEO</td>
+     <td class="d">Technical SEO (Core Web Vitals, schema, indexation, site health) and generative-engine optimization so the practice surfaces in AI answers, not just classic search.</td>
    </tr>
    <tr class="total" data-comment-target>
      <td class="s">Total retainer</td>
